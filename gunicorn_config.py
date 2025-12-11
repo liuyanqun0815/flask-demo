@@ -23,8 +23,8 @@ import sys
 bind = "0.0.0.0:5001"
 #workers = multiprocessing.cpu_count() * 2 + 1
 workers = 4
-accesslog = "/data/dify_feihu/pyserver/api/access.log"
-errorlog = "/data/dify_feihu/pyserver/api/error.log"
+accesslog = "/data/logs/api/access.log"
+errorlog = "/data/logs/api/error.log"
 loglevel = "debug"
 capture_output = True
 timeout = 300
